@@ -23868,6 +23868,8 @@ GameObject:
   - component: {fileID: 4453900412721558750}
   - component: {fileID: 8419110274387958159}
   - component: {fileID: 8419110274387958163}
+  - component: {fileID: 5079033815704958540}
+  - component: {fileID: 2057502388286640089}
   m_Layer: 0
   m_Name: Fuel
   m_TagString: Fuel
@@ -24346,6 +24348,38 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5079033815704958540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4453900412721558720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0ae056b8ccf34b4f8ea45a680d8fdaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 9150945244441502714, guid: 4e29366682916b84498ff6efbfcb796c,
+    type: 3}
+  ground: {fileID: 0}
+  partsList: []
+  force: 300000
+  radius: 30
+  lift: 30
+  enemyPoints: 0
+--- !u!114 &2057502388286640089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4453900412721558720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4835843a6cf837147ae99612f76ff405, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4453900412734277698
 GameObject:
   m_ObjectHideFlags: 0

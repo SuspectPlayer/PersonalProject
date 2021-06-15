@@ -9,9 +9,9 @@ public class ExplodeEnemy : MonoBehaviour
     public TMP_Text scoreText;
     public DestroyEnemyParts ground;
     public List<Transform> partsList;
-    public float force = 2;
-    public float radius = 2;
-    public float lift = 2;
+    public float force = 300000;
+    public float radius = 30;
+    public float lift = 30;
 
     public int enemyPoints;
     bool enemyDied;
@@ -129,7 +129,8 @@ public class ExplodeEnemy : MonoBehaviour
             }
             part.GetComponent<BoxCollider>().enabled = true;
             part.GetComponent<Rigidbody>().isKinematic = false;
-            part.GetComponent<Rigidbody>().AddExplosionForce(force, transform.position, radius, lift);
+            part.GetComponent<Rigidbody>().useGravity = true;
+            part.GetComponent<Rigidbody>().AddExplosionForce(force, transform.position, radius, lift,ForceMode.VelocityChange);
             part.parent = ground.transform;
             ground.unparentedPartsList.Add(part);
             
