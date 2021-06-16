@@ -10313,6 +10313,7 @@ GameObject:
   - component: {fileID: 4888629006925610631}
   - component: {fileID: 4888629006925610629}
   - component: {fileID: 4888629006925610628}
+  - component: {fileID: 8331912764801187407}
   m_Layer: 9
   m_Name: ShipR
   m_TagString: Enemy
@@ -10720,6 +10721,19 @@ CapsuleCollider:
   m_Height: 0
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8331912764801187407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4888629006925610627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a5191fb1011924883ab27f78d9d012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &4888629006935250559
 GameObject:
   m_ObjectHideFlags: 0
@@ -18796,6 +18810,7 @@ GameObject:
   - component: {fileID: 6022375214480510824}
   - component: {fileID: 6022375214480510827}
   - component: {fileID: 6022375214480510826}
+  - component: {fileID: 6677600077886849138}
   m_Layer: 10
   m_Name: WayPoint1
   m_TagString: Untagged
@@ -18879,6 +18894,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6677600077886849138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6022375214480510820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a5191fb1011924883ab27f78d9d012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &8775439364530496868
 GameObject:
   m_ObjectHideFlags: 0
@@ -18891,6 +18919,7 @@ GameObject:
   - component: {fileID: 8775439364530496864}
   - component: {fileID: 8775439364530496867}
   - component: {fileID: 8775439364530496866}
+  - component: {fileID: 4101796204268827775}
   m_Layer: 10
   m_Name: WayPoint2
   m_TagString: Untagged
@@ -18974,3 +19003,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4101796204268827775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8775439364530496868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a5191fb1011924883ab27f78d9d012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}

@@ -684,6 +684,7 @@ GameObject:
   - component: {fileID: 1540941570306157816}
   - component: {fileID: 5655965673242776290}
   - component: {fileID: 4535331724040393406}
+  - component: {fileID: 7688796317130609704}
   m_Layer: 9
   m_Name: JetR
   m_TagString: Enemy
@@ -812,6 +813,19 @@ CapsuleCollider:
   m_Height: 19.845295
   m_Direction: 1
   m_Center: {x: -1.6262768e-18, y: 5.897356, z: 0.013272516}
+--- !u!114 &7688796317130609704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3208258528488172454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a5191fb1011924883ab27f78d9d012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &3743680785361089831
 GameObject:
   m_ObjectHideFlags: 0
@@ -1048,6 +1062,7 @@ GameObject:
   - component: {fileID: 4419711969563695455}
   - component: {fileID: 4419711969563695452}
   - component: {fileID: 4419711969563695453}
+  - component: {fileID: 8417325720227823063}
   m_Layer: 10
   m_Name: WayPoint1
   m_TagString: Untagged
@@ -1131,6 +1146,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8417325720227823063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4419711969563695443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a5191fb1011924883ab27f78d9d012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &5863613972397472077
 GameObject:
   m_ObjectHideFlags: 0
@@ -2823,6 +2851,7 @@ GameObject:
   - component: {fileID: 6034556910597686308}
   - component: {fileID: 6034556910597686311}
   - component: {fileID: 6034556910597686310}
+  - component: {fileID: 6177319737557474804}
   m_Layer: 10
   m_Name: WayPoint2
   m_TagString: Untagged
@@ -2906,6 +2935,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6177319737557474804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6034556910597686304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a5191fb1011924883ab27f78d9d012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &7898634317590047381
 GameObject:
   m_ObjectHideFlags: 0

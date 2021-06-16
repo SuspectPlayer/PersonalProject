@@ -45,8 +45,15 @@ public class StatsCounter : MonoBehaviour
     }
     public void LoseLife()
     {
-        lives --;
-        Debug.Log("LoseLife called");
+        if (lives > 0)
+        {
+            lives--;
+            Debug.Log("LoseLife called");
+        }
+        else
+        {
+            lives = 0;
+        }
     }
     public void RespawnPlayer()
     {

@@ -13,10 +13,16 @@ public class Refuel : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        stats.fuelSpeed = +5;
+        if (other.transform.CompareTag("Player"))
+        {
+            stats.fuelSpeed = +5;
+        }
     }
     private void OnTriggerExit(Collider other)
     {
-        stats.fuelSpeed = -1;
+        if (other.transform.CompareTag("Player"))
+        {
+            stats.fuelSpeed = -1;
+        }
     }
 }

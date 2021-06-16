@@ -1804,6 +1804,7 @@ GameObject:
   - component: {fileID: 1781244009348522662}
   - component: {fileID: 1781244009348522661}
   - component: {fileID: 8804970569990946680}
+  - component: {fileID: 673205430977193023}
   m_Layer: 9
   m_Name: ChopperS
   m_TagString: Enemy
@@ -1991,6 +1992,19 @@ CapsuleCollider:
   m_Height: 8.66
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &673205430977193023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781244009348522656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a5191fb1011924883ab27f78d9d012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &1781244009383275062
 GameObject:
   m_ObjectHideFlags: 0
@@ -7136,6 +7150,7 @@ GameObject:
   - component: {fileID: 5162835893406167835}
   - component: {fileID: 5162835893406167832}
   - component: {fileID: 5162835893406167833}
+  - component: {fileID: 7150296145660595484}
   m_Layer: 10
   m_Name: WayPoint2
   m_TagString: Untagged
@@ -7219,6 +7234,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7150296145660595484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5162835893406167839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a5191fb1011924883ab27f78d9d012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &7817645974753809402
 GameObject:
   m_ObjectHideFlags: 0
@@ -7231,6 +7259,7 @@ GameObject:
   - component: {fileID: 7817645974753809398}
   - component: {fileID: 7817645974753809397}
   - component: {fileID: 7817645974753809396}
+  - component: {fileID: 4324264582147848876}
   m_Layer: 10
   m_Name: WayPoint1
   m_TagString: Untagged
@@ -7314,3 +7343,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4324264582147848876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7817645974753809402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a5191fb1011924883ab27f78d9d012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}

@@ -1692,6 +1692,7 @@ GameObject:
   - component: {fileID: 772936705292438521}
   - component: {fileID: 772936705292438522}
   - component: {fileID: 772936705292438523}
+  - component: {fileID: 8497059503859540734}
   m_Layer: 10
   m_Name: WayPoint2
   m_TagString: Untagged
@@ -1775,6 +1776,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8497059503859540734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772936705292438525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a5191fb1011924883ab27f78d9d012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &3789953148965545288
 GameObject:
   m_ObjectHideFlags: 0
@@ -2571,6 +2585,7 @@ GameObject:
   - component: {fileID: 7228542116110931586}
   - component: {fileID: 7228542116110931585}
   - component: {fileID: 7228542116110931584}
+  - component: {fileID: 2188841768316438927}
   m_Layer: 10
   m_Name: WayPoint1
   m_TagString: Untagged
@@ -2654,6 +2669,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2188841768316438927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7228542116110931598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a5191fb1011924883ab27f78d9d012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &7705994905415056122
 GameObject:
   m_ObjectHideFlags: 0
@@ -2890,6 +2918,7 @@ GameObject:
   - component: {fileID: 5505525675071103781}
   - component: {fileID: 1691962092865494335}
   - component: {fileID: 7491091962492099939}
+  - component: {fileID: 2027784101941991543}
   m_Layer: 9
   m_Name: Jet
   m_TagString: Enemy
@@ -3018,3 +3047,16 @@ CapsuleCollider:
   m_Height: 19.845295
   m_Direction: 1
   m_Center: {x: -1.6262768e-18, y: 5.897356, z: 0.013272516}
+--- !u!114 &2027784101941991543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8467627654487172219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a5191fb1011924883ab27f78d9d012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}

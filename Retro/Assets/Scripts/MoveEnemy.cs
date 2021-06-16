@@ -108,6 +108,10 @@ public class MoveEnemy : MonoBehaviour
 
         }
     }
+    void OnBecameInvisible()
+    {
+        Debug.Log(transform.name + "is no longer visible");
+    }
 }
 
     

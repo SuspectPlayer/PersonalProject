@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 93553194017907053}
   - component: {fileID: 93553194017907054}
   - component: {fileID: 93553194017907055}
+  - component: {fileID: 28699206024407568}
   m_Layer: 10
   m_Name: WayPoint2
   m_TagString: Untagged
@@ -95,6 +96,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &28699206024407568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93553194017907049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a5191fb1011924883ab27f78d9d012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &3104959128710269801
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,6 +121,7 @@ GameObject:
   - component: {fileID: 3104959128710269797}
   - component: {fileID: 3104959128710269798}
   - component: {fileID: 3104959128710269799}
+  - component: {fileID: 4590012778097943443}
   m_Layer: 10
   m_Name: WayPoint1
   m_TagString: Untagged
@@ -190,6 +205,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4590012778097943443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3104959128710269801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a5191fb1011924883ab27f78d9d012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &4274804003006978522
 GameObject:
   m_ObjectHideFlags: 0
@@ -6474,6 +6502,7 @@ GameObject:
   - component: {fileID: 4274804003812096650}
   - component: {fileID: 4274804003812096648}
   - component: {fileID: 4274804003812096649}
+  - component: {fileID: -193478882194861010}
   m_Layer: 9
   m_Name: Ship
   m_TagString: Enemy
@@ -6881,6 +6910,19 @@ CapsuleCollider:
   m_Height: 0
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-193478882194861010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4274804003812096654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a5191fb1011924883ab27f78d9d012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &4274804003816792038
 GameObject:
   m_ObjectHideFlags: 0
