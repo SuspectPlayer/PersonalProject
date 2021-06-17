@@ -53,6 +53,7 @@ public class MovePlayer : MonoBehaviour
             }
         }
         
+        
     }
     public void ChangePlayerSpeed(int speed)
     {
